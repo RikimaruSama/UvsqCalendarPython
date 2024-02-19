@@ -10,3 +10,5 @@ aujourdhui = calendrier.request_dict(section="S6 INFO TD01")
 print(aujourdhui)
 # [{'matiere': 'LSIN611', 'type': 'Temps personnel', 'date': '16-02-2024', 'heure': '09:40:00', 'duree': '3:10:00', 'lieu': ''} ...
 ```
+#TODO :
+- Pour le dimanche 18, Cours : None et Salle : None... On n'affiche pas les dimanches ou soit try...expect et on passe.
