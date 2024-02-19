@@ -12,3 +12,7 @@ print(aujourdhui)
 ```
 #TODO :
 - Pour le dimanche 18, Cours : None et Salle : None... On n'affiche pas les dimanches ou soit try...expect et on passe.
+```python
+# Possible solution
+if datetime.strptime(date_debut, "%d/%m/%Y").isoweekday() == 6 or datetime.strptime(date_fin, "%d/%m/%Y").isoweekday() == 6:
+```
